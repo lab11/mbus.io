@@ -1,67 +1,24 @@
-<!DOCTYPE html>
-<html lang="${request.locale_name}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="pyramid web application">
-    <meta name="author" content="Pylons Project">
-    <link rel="shortcut icon" href="${request.static_url('mbus:static/pyramid-16x16.png')}">
+<%inherit file="base.mako"/>
 
-    <title>Starter Template for The Pyramid Web Framework</title>
+<%block name="title_extra"> | Home</%block>
 
-    <!-- Bootstrap core CSS -->
-    <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="${request.static_url('mbus:static/theme.css')}" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="starter-template">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img class="logo img-responsive" src="${request.static_url('mbus:static/pyramid.png')}" alt="pyramid web framework">
-          </div>
-          <div class="col-md-10">
-            <div class="content">
-              <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">starter template</span></h1>
-              <p class="lead">Welcome to <span class="font-normal">${project}</span>, an&nbsp;application generated&nbsp;by<br>the <span class="font-normal">Pyramid Web Framework</span>.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="links">
-            <ul>
-              <li class="current-version">Currently v1.5</li>
-              <li><i class="glyphicon glyphicon-bookmark icon-muted"></i><a href="http://docs.pylonsproject.org">Docs</a></li>
-              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
-              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="irc://irc.freenode.net#pyramid">IRC Channel</a></li>
-              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="http://pylonsproject.org">Pylons Project</a></li>
-          </div>
-        </div>
-        <div class="row">
-          <div class="copyright">
-            Copyright © Pylons Project
-          </div>
-        </div>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-lg-4 col-xs-12">
+        <img src="/static/img/MBus_CMYK.png" class="displayed" width="100%">
+      </div>
+      <div class="col-lg-8 col-xs-12">
+        <h3>MBus is the next-generation system interconnect.</h3>
+        <p>MBus is a chip-to-chip bus designed for ultra-constrained systems.
+        MBus is a multi-master bus supporting an arbitrary number of nodes,
+        priority arbitration, efficient acknowledgements, extensible addressing,
+        and FEATURE with only four wires and consuming only
+        <strong>3.5&nbsp;pJ/bit/chip</strong>.</p>
+        <p>MBus is <i>power-aware</i>, enabling the design of
+        <i>power-oblivious</i> systems. Individual chips can fully power off and
+        MBus will automatically take care of all the tricky details.</p>
       </div>
     </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-  </body>
-</html>
-
+  </div>
+</div>
