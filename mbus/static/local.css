@@ -2,3 +2,21 @@ body {
   padding-top: 70px; /* Navbar = 50; + 20 pad */
   padding-bottom: 20px;
 }
+
+.authors {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.authors li {
+	margin: 5px;
+	margin-left: 30px;
+}
+
+.authors a {
+	font-weight: bold;
+}
+
+.well-clear {
+	background-color: transparent;
+}

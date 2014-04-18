@@ -12,13 +12,31 @@
         <h3>MBus is the next-generation system interconnect.</h3>
         <p>MBus is a chip-to-chip bus designed for ultra-constrained systems.
         MBus is a multi-master bus supporting an arbitrary number of nodes,
-        priority arbitration, efficient acknowledgements, extensible addressing,
-        and FEATURE with only four wires and consuming only
+        priority arbitration, efficient acknowledgements, and extensible
+        addressing, with only four wires and consuming only
         <strong>3.5&nbsp;pJ/bit/chip</strong>.</p>
         <p>MBus is <i>power-aware</i>, enabling the design of
         <i>power-oblivious</i> systems. Individual chips can fully power off and
         MBus will automatically take care of all the tricky details.</p>
       </div>
     </div>
+  </div>
+  <div class="well well-clear">
+    <h4>
+      MBus was invented and built by a team of researchers at the
+      University of Michigan:
+    </h4>
+    <ul class="authors">
+      <li><a href="http://patpannuto.com">Pat Pannuto</a>, Ph.D. Candidate, University of Michigan</li>
+      <li><a href="http://sites.google.com/site/yoonmyunglee/">Yoonmyung Lee</a>, Assistant Research Scientist, University of Michigan</li>
+      <li><a href="http://web.eecs.umich.edu/~samkuo">Ye-Sheng Kuo</a>, Ph.D. Candidate, University of Michigan</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=zhiyoong">Zhi Yoong Foo</a>, Research Fellow, University of Michigan</li>
+      <li><a href="http://web.eecs.umich.edu/~bpkempke">Ben Kempke</a>, Ph.D. Candidate, University of Michigan</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Associate Professor, University of Michigan</li>
+      <li><a href="http://web.eecs.umich.edu/~prabal">Prabal Dutta</a>, Assistant Professor, University of Michigan</li>
+    </ul>
+    <h4>
+      You can reach the MBus team at <a href="mailto:mbus-team@umich.edu">mbus-team@umich.edu</a>.
+    </h4>
   </div>
 </div>

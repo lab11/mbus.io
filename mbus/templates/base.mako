@@ -54,6 +54,7 @@
           <ul class="nav navbar-nav pull-right">
             <li><a href="#">Research Paper</a></li>
             <li><a href="#">Specification</a></li>
+            <li><a href="#">Verilog</a></li>
           </ul>
         </div>
       </div>
