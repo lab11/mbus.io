@@ -9,7 +9,7 @@
         <img src="/static/img/MBus_CMYK.png" class="displayed" width="100%">
       </div>
       <div class="col-lg-8 col-xs-12">
-        <h3>MBus is the next-generation system interconnect.</h3>
+        <h2 id="home_title">MBus is the next-generation system interconnect.</h2>
         <p>MBus is a chip-to-chip bus designed for ultra-constrained systems.
         MBus is a multi-master bus supporting an arbitrary number of nodes,
         priority arbitration, efficient acknowledgements, and extensible
