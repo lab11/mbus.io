@@ -7,9 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="MBus">
       <meta name="author" content="Pat Pannuto">
-      <!--
-      <link rel="shortcut icon" href="${request.static_url('mbus:static/pyramid-16x16.png')}">
-      -->
+      <link rel="shortcut icon" href="${request.static_url('mbus:static/img/MBus_no_text_with_line_square.png')}">
 
 
       <title>
@@ -24,9 +22,6 @@
 
       <!-- Custom styles for this template -->
       <link href="${request.static_url('mbus:static/local.css')}" rel="stylesheet">
-      <!--
-      <link href="${request.static_url('mbus:static/theme.css')}" rel="stylesheet">
-      -->
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!--[if lt IE 9]>
@@ -46,22 +41,32 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="/static/img/MBus_inv.png" class="displayed" height="30px">
+            <img src="/static/img/MBus_inv.png" class="displayed" height="20px">
             <i>An ultra-low power bus</i>
           </a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="#">Research Paper</a></li>
-            <li><a href="#">Specification</a></li>
-            <li><a href="#">Verilog</a></li>
+            <li><a href="/paper.html">Research Paper</a></li>
+            <li><a href="/spec.html">Specification</a></li>
+            <li><a href="/verilog.html">Verilog</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="content">
-      ${next.body()}
+    <div id="wrap">
+      <div class="content">
+        ${next.body()}
+      </div>
+    </div>
+
+    <div class="footer" role="navigation">
+      <div class="container">
+        <div class="center-block">
+          MBus &copy; 2012-2014 The Regents of the University of Michigan
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript

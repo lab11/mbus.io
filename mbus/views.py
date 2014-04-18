@@ -2,5 +2,17 @@ from pyramid.view import view_config
 
 
 @view_config(route_name='home', renderer='templates/home.mako')
-def my_view(request):
+def home(request):
 	return {'project': 'mbus'}
+
+@view_config(route_name='paper', renderer='templates/paper.mako')
+def paper(request):
+	return {}
+
+@view_config(route_name='spec', renderer='templates/spec.mako')
+def spec(request):
+	return {}
+
+@view_config(route_name='verilog', renderer='templates/verilog.mako')
+def verilog(request):
+	return {}

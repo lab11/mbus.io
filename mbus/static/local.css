@@ -1,3 +1,19 @@
+html,body{
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+.footer {
+	position: relative;
+	margin-top: -50px;
+	height: 50px;
+	clear: both;
+	padding-top: 40px;
+}
+
 body {
   padding-top: 70px; /* Navbar = 50; + 20 pad */
   padding-bottom: 20px;
