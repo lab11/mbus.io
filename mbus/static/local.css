@@ -40,3 +40,7 @@ body {
 @media only screen and (min-width: 959px) {
 	#home_title {margin-top: 0;}
 }
+
+img.paper {
+	border: 1px solid;
+}

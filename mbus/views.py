@@ -13,6 +13,10 @@ def paper(request):
 def spec(request):
 	return {}
 
+@view_config(route_name='spec-legal', renderer='templates/spec-legal.mako')
+def spec_legal(request):
+	return {}
+
 @view_config(route_name='verilog', renderer='templates/verilog.mako')
 def verilog(request):
 	return {}
