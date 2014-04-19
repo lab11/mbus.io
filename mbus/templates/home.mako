@@ -32,7 +32,7 @@
       <li><a href="http://web.eecs.umich.edu/~samkuo">Ye-Sheng Kuo</a>, Ph.D. Candidate, University of Michigan</li>
       <li><a href="http://blaauw.eecs.umich.edu/people.php?u=zhiyoong">Zhi Yoong Foo</a>, Research Fellow, University of Michigan</li>
       <li><a href="http://web.eecs.umich.edu/~bpkempke">Ben Kempke</a>, Ph.D. Candidate, University of Michigan</li>
-      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Associate Professor, University of Michigan</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Professor, University of Michigan</li>
       <li><a href="http://web.eecs.umich.edu/~prabal">Prabal Dutta</a>, Assistant Professor, University of Michigan</li>
     </ul>
     <h4>
