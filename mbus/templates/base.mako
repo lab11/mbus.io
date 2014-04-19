@@ -50,6 +50,7 @@
             <li><a href="/paper.html">Research Paper</a></li>
             <li><a href="/spec.html">Specification</a></li>
             <li><a href="/verilog.html">Verilog</a></li>
+            <li><a href="/ice.html">ICE Board</a></li>
           </ul>
         </div>
       </div>

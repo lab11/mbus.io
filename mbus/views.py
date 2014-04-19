@@ -16,3 +16,7 @@ def spec(request):
 @view_config(route_name='verilog', renderer='templates/verilog.mako')
 def verilog(request):
 	return {}
+
+@view_config(route_name='ice', renderer='templates/ice.mako')
+def ice(request):
+	return {}
