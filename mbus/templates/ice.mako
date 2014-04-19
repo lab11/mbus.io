@@ -3,7 +3,7 @@
 <%block name="title_extra"> | ICE EVM Board</%block>
 
 <% ext_icon     = '<i class="fa fa-external-link"></i>' %>
-<% protocol_url = "https://github.com/lab11/M-ulator/blob/master/platforms/m3/hardware/ICE/protocol/built/protocol.pdf?raw=true" %>
+<% protocol_url = request.static_url('mbus:static/ICE-Protocol.pdf') %>
 <% ice_py_url   = "https://github.com/lab11/M-ulator/blob/master/platforms/m3/programming/ice.py" %>
 <% flash_pro_url= "http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro" %>
 <% FlashPro     = '<a href="'+flash_pro_url+'" target="_blank">FlashPro Programmer '+ext_icon+'</a>' %>
@@ -26,7 +26,7 @@
         </p>
         <p>
           We have some ICE boards available to disseminate to academic institutions
-          (gratis or for a small fee). For those looking to build their own, the
+          (gratis or at-cost for several). For those looking to build their own, the
           schematic, gerbers, and BOM <a href="mailto:mbus-team@umich.edu">are
             available</a>. The ICE board is controlled by an FPGA. You will also
           need access to a ${FlashPro |n} as well as the
