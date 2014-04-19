@@ -20,6 +20,9 @@
       <!-- Bootstrap core CSS -->
       <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
+      <!-- Font Awesome icons -->
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
       <!-- Custom styles for this template -->
       <link href="${request.static_url('mbus:static/local.css')}" rel="stylesheet">
 
