@@ -1,7 +1,7 @@
 mbus.io
 =======
 
-Website source for mbus.io
+Website source for [mbus.io](mbus.io)
 
 Installing
 ----------
