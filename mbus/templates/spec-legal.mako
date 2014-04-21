@@ -5,6 +5,7 @@
 <% legal = request.static_url('mbus:static/MBus-Specification-Legal.pdf') %>
 <% legal = '#' %>
 <% spec  = request.static_url('mbus:static/MBus-Specification-v0.3.pdf') %>
+<% spec  = '#' %>
 
 <div class="container">
   <div class="well well-clear">
