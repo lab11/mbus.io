@@ -4,6 +4,7 @@
 
 <div class="container">
   <div class="well well-clear">
+    <!--
     <p>
       We are currently preparing parallel papers on the MBus architecutre
       (<a href="http://www.microarch.org/micro47">Micro '14</a>) and the MBus
@@ -11,6 +12,11 @@
     </p>
     <p>
       Papers will be made available here as they progress through the submission process.
+    </p>
+    -->
+    <p>
+      Academic papers detailing MBus are currently under submission. If you use
+      MBus currently, please use the following citation:
     </p>
     <h2>Bibtex</h2>
     <pre>
