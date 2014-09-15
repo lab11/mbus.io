@@ -13,19 +13,25 @@
           home of the MBus Specification. Any and all updates and errata shall
           be posted here.
         </p>
+        <!--
         <p>
           <strong>Specification Last Updated: April 18, 2014</strong>
           <ul>
             <li><em><a href="/spec-legal.html">Download the MBus Specification v0.3</a></em></li>
           </ul>
         </p>
+        -->
+        <p>A final, public release is still under internal edit. Persons interested
+          in an advance, draft copy should
+          <a href="mailto:mbus-team@umich.edu">e-mail the MBus team</a>.
+        </p>
       </div>
       <div class="col-lg-4 hidden-xs">
-        <a href="/spec-legal.html">
+        <!--<a href="/spec-legal.html">-->
           <img src="${request.static_url('mbus:static/img/MBus-Specification-Front.png')}"
           width="100%" class="paper"
           title="MBus Specification" alt="Front Page of MBus Specification" />
-        </a>
+        <!--</a>-->
       </div>
     </div>
   </div>
