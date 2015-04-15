@@ -5,7 +5,7 @@
 <div class="container">
   <div class="jumbotron">
     <div class="row">
-      <div class="col-lg-4 col-xs-12">
+      <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
         <img src="/static/img/MBus_CMYK.png" class="displayed" width="100%">
       </div>
       <div class="col-lg-8 col-xs-12">

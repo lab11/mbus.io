@@ -68,7 +68,7 @@
     <div class="footer" role="navigation">
       <div class="container">
         <div class="center-block">
-          MBus &copy; 2012-2014 The Regents of the University of Michigan
+          MBus &copy; 2012-2015 The Regents of the University of Michigan
         </div>
       </div>
     </div>
@@ -78,5 +78,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script>
+      $('#pannuto15mbus-bibtex-button').click(function () {
+        $('#pannuto15mbus-bibtex').toggle('fast');
+      });
+      $('#kuo14mbus-bibtex-button').click(function () {
+        $('#kuo14mbus-bibtex').toggle('fast');
+      });
+    </script>
   </body>
 </html>
