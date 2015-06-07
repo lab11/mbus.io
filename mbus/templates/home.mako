@@ -27,13 +27,13 @@
       University of Michigan:
     </h4>
     <ul class="authors">
-      <li><a href="http://patpannuto.com">Pat Pannuto</a>, Ph.D. Candidate, University of Michigan</li>
-      <li><a href="http://sites.google.com/site/yoonmyunglee/">Yoonmyung Lee</a>, Assistant Research Scientist, University of Michigan</li>
-      <li><a href="http://web.eecs.umich.edu/~samkuo">Ye-Sheng Kuo</a>, Ph.D. Candidate, University of Michigan</li>
-      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=zhiyoong">Zhi Yoong Foo</a>, Research Fellow, University of Michigan</li>
-      <li><a href="http://web.eecs.umich.edu/~bpkempke">Ben Kempke</a>, Ph.D. Candidate, University of Michigan</li>
-      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Professor, University of Michigan</li>
-      <li><a href="http://web.eecs.umich.edu/~prabal">Prabal Dutta</a>, Assistant Professor, University of Michigan</li>
+      <li><a href="http://patpannuto.com">Pat Pannuto</a>, Ph.D. Student, University of Michigan</li>
+      <li><a href="http://sites.google.com/site/yoonmyunglee/">Yoonmyung Lee</a>, Assistant Professor, SungKyunKwan University</li>
+      <li><a href="http://web.eecs.umich.edu/~samkuo">Ye-Sheng Kuo</a>, Research Fellow, University of Michigan</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=zhiyoong">ZhiYoong Foo</a>, Co-Founder and CEO, CubeWorks; Research Fellow, University of Michigan</li>
+      <li><a href="http://web.eecs.umich.edu/~bpkempke">Ben Kempke</a>, Ph.D. Student, University of Michigan; Founder and CEO, Kempke Engineering</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Professor, University of Michigan; Co-Founder and Principal Advisor, Cubeworks</li>
+      <li><a href="http://web.eecs.umich.edu/~prabal">Prabal Dutta</a>, Associate Professor, University of Michigan; Co-Founder and Advisor, Cubeworks</li>
     </ul>
     <h4>
       You can reach the MBus team at <a href="mailto:mbus-team@umich.edu">mbus-team@umich.edu</a>.
