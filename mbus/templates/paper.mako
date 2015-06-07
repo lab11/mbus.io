@@ -51,7 +51,7 @@
     <div id="pannuto15mbus-bibtex" style="display: none;">
       <pre>
 @INPROCEEDINGS{pannuto15mbus,
-	author={Pannuto, Pat and Lee, Yoonmyung and Kuo, Ye-Sheng and Foo, ZhiYoong and Kempke, Benjamin and Kim, Gyouho and Dreslinski~Jr, Ronald and Blaauw, David and Dutta, Prabal},
+	author={Pannuto, Pat and Lee, Yoonmyung and Kuo, Ye-Sheng and Foo, ZhiYoong and Kempke, Benjamin and Kim, Gyouho and Dreslinski, Ronald G and Blaauw, David and Dutta, Prabal},
 	title={{MBus}: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems},
 	booktitle={Proceedings of the 42nd International Symposium on Computer Architecture},
 	series={ISCA '15},
