@@ -54,6 +54,7 @@
             <li><a href="/spec.html">Specification</a></li>
             <li><a href="/verilog.html">Verilog</a></li>
             <li><a href="/ice.html">ICE Board</a></li>
+            <li><a href="https://github.com/lab11/mbus" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
           </ul>
         </div>
       </div>
