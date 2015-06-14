@@ -21,6 +21,10 @@ def spec_legal(request):
 def verilog(request):
 	return {}
 
+@view_config(route_name='verilog-legal', renderer='templates/verilog-legal.mako')
+def verilog_legal(request):
+	return {}
+
 @view_config(route_name='ice', renderer='templates/ice.mako')
 def ice(request):
 	return {}

@@ -12,6 +12,7 @@ def main(global_config, **settings):
 	config.add_route('spec', '/spec.html')
 	config.add_route('spec-legal', '/spec-legal.html')
 	config.add_route('verilog', '/verilog.html')
+	config.add_route('verilog-legal', '/verilog-legal.html')
 	config.add_route('ice', '/ice.html')
 	config.scan()
 	return config.make_wsgi_app()

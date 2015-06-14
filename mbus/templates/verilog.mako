@@ -2,8 +2,6 @@
 
 <%block name="title_extra"> | Verilog</%block>
 
-<% impl = request.static_url('mbus:static/MBus-Implementation-v0.3.pdf') %>
-
 <div class="container">
   <div class="well well-clear">
     <div class="row">
@@ -20,8 +18,7 @@
         </p>
         <p>
           <ul>
-            <li><em><a href="${impl}">Download the Implementation Documentation</a></em></li>
-            <li><em><a href="#">Download the MBus Verilog</a></em> &mdash; Coming Soon!</li>
+            <li><em><a href="/verilog-legal.html">Download the MBus Verilog</a></em></li>
           </ul>
         </p>
       </div>

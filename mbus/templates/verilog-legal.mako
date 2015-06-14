@@ -1,9 +1,10 @@
 <%inherit file="base.mako"/>
 
-<%block name="title_extra"> | Specification | Legal</%block>
+<%block name="title_extra"> | Verilog | Legal</%block>
 
 <% legal = request.static_url('mbus:static/MBus_EULA_v1.0.pdf') %>
-<% spec  = request.static_url('mbus:static/MBus-Specification-v1.0-alpha.pdf') %>
+<% spec  = request.static_url('mbus:static/MBus-Verilog-v1.0.pdf') %>
+<% spec  = '#' %>
 
 <div class="container">
   <div class="well well-clear">
@@ -117,14 +118,14 @@ Printed Name ___________________________
       </div>
       <div class="col-lg-3">
         <form method="get" action="${spec}">
-          <button type="submit" class="btn btn-default form-control">MBus Specification (pdf)</button>
+          <button type="submit" class="btn btn-default form-control">MBus Verilog (Coming Soon!)</button>
         </form>
       </div>
     </div>
     <div class="row visible-xs">
       <div class="col-xs-12">
         <form method="get" action="${spec}">
-          <button type="submit" class="btn btn-default form-control">MBus Specification (pdf)</button>
+          <button type="submit" class="btn btn-default form-control">MBus Verilog (Coming Soon!)</button>
         </form>
       </div>
       <div class="col-xs-12">

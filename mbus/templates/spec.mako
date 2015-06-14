@@ -14,11 +14,21 @@
           be posted here.
         </p>
         <p>
-          <strong>Specification Last Updated: June 11, 2015</strong>
-          <ul>
-            <li><em><a href="/spec-legal.html">Download the MBus Specification v1.0</a></em></li>
-          </ul>
+          We are currently in the process of preparing the final release of the
+          MBus specification. As we lead up to the release, we invite comments
+          from the community for any errata or suggestions for the specification.
         </p>
+        <!--<strong>Specification Last Updated: June 11, 2015</strong>-->
+        <hr />
+        Timeline:
+        <dl class="dl-horizontal">
+          <dt>2015-06-11</dt>
+          <dd><a href="/spec-legal.html">MBus Specification v1.0-alpha</a></dd>
+          <dt>2015-07-15</dt>
+          <dd>MBus Specification v1.0-beta</dd>
+          <dt>2015-09-01</dt>
+          <dd>MBus Specification v1.0</dd>
+        </dl>
       </div>
       <div class="col-lg-4 hidden-xs">
         <a href="/spec-legal.html">
