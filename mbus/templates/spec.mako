@@ -22,11 +22,11 @@
         <hr />
         Timeline:
         <dl class="dl-horizontal">
-          <dt>2015-06-11</dt>
+          <dt>2015-06-14</dt>
           <dd><a href="/spec-legal.html">MBus Specification v1.0-alpha</a></dd>
-          <dt>2015-07-15</dt>
+          <dt>2015-07-31</dt>
           <dd>MBus Specification v1.0-beta</dd>
-          <dt>2015-09-01</dt>
+          <dt>2015-11-30</dt>
           <dd>MBus Specification v1.0</dd>
         </dl>
       </div>
