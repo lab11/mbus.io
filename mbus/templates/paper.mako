@@ -13,8 +13,8 @@
   </p>
 
   <div class="well well-clear">
-    <h3><a href="/static/pannuto15mbus-prepub.pdf">MBus: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems</a></h3>
-    <h4>To Appear: ISCA '15</h4>
+    <h3><a href="/static/pannuto15mbus.pdf">MBus: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems</a></h3>
+    <h4>ISCA '15</h4>
     <p>
       As we show in this paper, I/O has become the limiting factor in scaling
       down size and power toward the goal of invisible computing. Achieving
