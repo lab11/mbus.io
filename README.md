@@ -1,16 +1,28 @@
-mbus.io
-=======
+# mbus.io
+Source for [mbus.io](http://mbus.io)
 
-Website source for [mbus.io](http://mbus.io)
+## How to update the website
 
-Installing
-----------
+The makefile should do all the heavy lifting, with the makefile you can:
 
-1. Create a virtualenv for this website:
- * `virtualenv mbus_venv`
-2. Activate the virtualenv -- **make sure all future actions are done inside the virtualenv**
- * `source mbus_venv/bin/activate`
-3. Set up the website
- * `python setup.py develop  # or install as appropriate`
-4. Run a webserver
- * `pserve development.ini --reload`
+ * `make develop`: Host a copy of the website on your local machine.
+    Visit [localhost:8000](http://localhost:8000) in your browser to view it.
+    Any changes you make will automatically cause the site to rebuild,
+    simply refresh your browser to see them.
+ * `make deploy`: Pushes an update to the live [mbus.io](http://mbus.io) site.
+    It will open an editor window with a summary of the files you changed.
+    You will need to write a (breif) message explaining the change, save, and quit.
+    Be careful with this, it takes effect immediately.
+
+
+### Resources
+
+For things that you want on the live website, place them in `templates/static/{folder}/{file}`.
+Only put files that should be available online inside of the `templates` folder.
+For things like full-resoultion images, gimp/photoshop files, use the `resources` folder.
+
+## Pre-requisites
+
+You'll need to install a few python packages:
+
+`sudo pip install staticjinja when-changed`

@@ -1,6 +1,9 @@
-<%inherit file="base.mako"/>
+{# vim: set sts=2 sw=2 ts=2 et: #}
+{% extends "base.html" %}
 
-<%block name="title_extra"> | Specification</%block>
+{% block title_extra %} | Specification{% endblock %}
+
+{% block body %}
 
 <div class="container">
   <div class="well well-clear">
@@ -32,7 +35,7 @@
       </div>
       <div class="col-lg-4 hidden-xs">
         <a href="/spec-legal.html">
-          <img src="${request.static_url('mbus:static/img/MBus-Specification-Front.png')}"
+          <img src="/static/img/MBus-Specification-Front.png"
           width="100%" class="paper"
           title="MBus Specification" alt="Front Page of MBus Specification" />
         </a>
@@ -40,3 +43,6 @@
     </div>
   </div>
 </div>
+
+{% endblock %}
+

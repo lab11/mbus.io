@@ -1,12 +1,15 @@
-<%inherit file="base.mako"/>
+{# vim: set sts=2 sw=2 ts=2 et: #}
+{% extends "base.html" %}
 
-<%block name="title_extra"> | ICE EVM Board</%block>
+{% block title_extra %} | ICE EVM Board{% endblock %}
 
-<% ext_icon     = '<i class="fa fa-external-link"></i>' %>
-<% protocol_url = request.static_url('mbus:static/ICE-Protocol.pdf') %>
-<% ice_py_url   = "https://github.com/lab11/M-ulator/blob/master/platforms/m3/programming/ice.py" %>
-<% flash_pro_url= "http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro" %>
-<% FlashPro     = '<a href="'+flash_pro_url+'" target="_blank">FlashPro Programmer '+ext_icon+'</a>' %>
+{% block body %}
+
+{% set ext_icon      = '<i class="fa fa-external-link"></i>' %}
+{% set protocol_url  = '/static/ICE-Protocol.pdf' %}
+{% set ice_py_url    = "https://github.com/lab11/M-ulator/blob/master/platforms/m3/programming/ice.py" %}
+{% set flash_pro_url = "http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro" %}
+{% set FlashPro      = '<a href="'+flash_pro_url+'" target="_blank">FlashPro Programmer '+ext_icon+'</a>' %}
 
 <div class="container">
   <div class="well well-clear">
@@ -20,8 +23,8 @@
           node, or bus master as desired.
         </p>
         <p>
-          ICE uses a <a href="${protocol_url}">custom serial protocol (pdf)</a>
-          to communicate with a host PC. There is a <a href="${ice_py_url}">Python
+          ICE uses a <a href="{{protocol_url}}">custom serial protocol (pdf)</a>
+          to communicate with a host PC. There is a <a href="{{ice_py_url}}">Python
             library</a> that provides a reasonably high-level API to ICE and MBus.
         </p>
         <p>
@@ -29,15 +32,17 @@
           (gratis or at-cost for several). For those looking to build their own, the
           schematic, gerbers, and BOM <a href="mailto:mbus-team@umich.edu">are
             available</a>. The ICE board is controlled by an FPGA. You will also
-          need access to a ${FlashPro |n} as well as the
+          need access to a {{FlashPro|safe}} as well as the
           <a href="mailto:mbus-team@umich.edu">ICE FPGA image</a>.
         </p>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <img src="${request.static_url('mbus:static/img/ICE.jpg')}"
+        <img src="/static/img/ICE.jpg"
         width="100%" title="ICE v2 Board" alt="Image of ICE Board" />
       </div>
     </div>
   </div>
 </div>
+
+{% endblock %}
 

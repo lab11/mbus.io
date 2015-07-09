@@ -1,6 +1,9 @@
-<%inherit file="base.mako"/>
+{# vim: set sts=2 sw=2 ts=2 et: #}
+{% extends "base.html" %}
 
-<%block name="title_extra"> | Home</%block>
+{% block title_extra %} | Home{% endblock %}
+
+{% block body %}
 
 <div class="container">
     <div class="hidden-md hidden-sm hidden-xs">
@@ -8,7 +11,7 @@
     </div>
   <div class="jumbotron">
     <div>
-      <h2 id="home_title">MBus is the next-generation interconnect that enables the mm-scale computing class</h2>
+      <h2 id="home_title">MBus is the next-generation interconnect that enables the millimeter-scale computing class</h2>
       <p>MBus is a chip-to-chip bus designed for ultra-constrained systems.
       MBus is a multi-master bus supporting an arbitrary number of nodes,
       priority arbitration, efficient acknowledgements, and extensible
@@ -38,3 +41,5 @@
     </h4>
   </div>
 </div>
+
+{% endblock %}

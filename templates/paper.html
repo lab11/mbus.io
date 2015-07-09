@@ -1,6 +1,9 @@
-<%inherit file="base.mako"/>
+{# vim: set sts=2 sw=2 ts=2 et: #}
+{% extends "base.html" %}
 
-<%block name="title_extra"> | Research Paper</%block>
+{% block title_extra %} | Research Paper{% endblock %}
+
+{% block body %}
 
 <div class="container">
   <h2>Publications related to MBus</h2>
@@ -49,6 +52,7 @@
     </p>
     <p><a id="pannuto15mbus-bibtex-button">(Bibtex)</a></p>
     <div id="pannuto15mbus-bibtex" style="display: none;">
+{% raw %}
       <pre>
 @INPROCEEDINGS{pannuto15mbus,
 	author={Pannuto, Pat and Lee, Yoonmyung and Kuo, Ye-Sheng and Foo, ZhiYoong and Kempke, Benjamin and Kim, Gyouho and Dreslinski, Ronald G and Blaauw, David and Dutta, Prabal},
@@ -61,6 +65,7 @@
 	publisher={ACM},
 	conference-url={\url{http://www.ece.cmu.edu/calcm/isca2015}},
 }</pre>
+{% endraw %}
   </div>
   </div>
   <div class="well well-clear">
@@ -80,6 +85,7 @@
     </p>
     <p><a id="kuo14mbus-bibtex-button">(Bibtex)</a></p>
     <div id="kuo14mbus-bibtex" style="display: none;">
+{% raw %}
       <pre>
 @INPROCEEDINGS{kuo14mbus,
 	author={Kuo, Ye-Sheng and Pannuto, Pat and Kim, Gyouho and Foo, Zhi~{Y}oong and Lee, Inhee and Kempke, Benjamin and Dutta, Prabal and Blaauw, David and Lee, Yoonmyung},
@@ -91,7 +97,10 @@
 	location={San Jose, CA, USA},
 	conference-url={http://www.ieee-cicc.org},
 }</pre>
+{% endraw %}
   </div>
   </div>
 </div>
+
+{% endblock %}
 

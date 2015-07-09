@@ -1,6 +1,9 @@
-<%inherit file="base.mako"/>
+{# vim: set sts=2 sw=2 ts=2 et: #}
+{% extends "base.html" %}
 
-<%block name="title_extra"> | Verilog</%block>
+{% block title_extra %} | Verilog{% endblock %}
+
+{% block body %}
 
 <div class="container">
   <div class="well well-clear">
@@ -27,10 +30,12 @@
         </p>
       </div>
       <div class="col-lg-6 hidden-xs">
-        <img src="${request.static_url('mbus:static/img/block_diagram.svg')}"
+        <img src="/static/img/block_diagram.svg"
         width="100%" title="MBus Verilog Overview" alt="Block Diagram of MBus Verilog" />
       </div>
     </div>
   </div>
 </div>
+
+{% endblock %}
 
