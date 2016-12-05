@@ -8,13 +8,48 @@
 <div class="container">
   <h2>Publications related to MBus</h2>
   <p>
-    We have two refereed conference publications on MBus.
+    We have two refereed conference publications and a journal article on MBus.
+    The Top Picks article provides a slightly less technical overview of MBus,
+    covering the design motivations and key architectural tenets for an
+    interconnect for microscale systems.
     The CICC&nbsp;&rsquo;14 publication covers details on the novel circuit designs that enable MBus.
     The ISCA&nbsp;&rsquo;15 publication takes a holisitic view of the ultra-low
     power and micro-scale system design space, identifies the architectural
     constraints, and walks through the design choices and methodology of MBus.
   </p>
 
+  <div class="well well-clear">
+    <h3><a href="/static/pannuto16mbus-top-picks.pdf">MBus: A system integration bus for the modular microscale computing class</a></h3>
+    <h4>IEEE Micro Top Picks '16</h4>
+    <p>
+    MBus is a new interchip interconnect made of two
+    &ldquo;shoot-through&rdquo; rings that resolves fundamental size and
+    power issues that prevent the design of composable
+    microscale systems. MBus introduces power-oblivious
+    communication, which guarantees message reception
+    regardless of the recipient's power state. This
+    disentangles power management from communication,
+    greatly simplifying the creation of viable, modular, and
+    heterogeneous systems that operate on the order of
+    nanowatts.
+    </p>
+    <p><a id="pannuto16mbus-bibtex-button">(Bibtex)</a></p>
+    <div id="pannuto16mbus-bibtex" style="display: none;">
+{% raw %}
+      <pre>
+@INPROCEEDINGS{pannuto16mbus,
+	author={Pannuto, Pat and Lee, Yoonmyung and Kuo, Ye-Sheng and Foo, ZhiYoong and Kempke, Benjamin and Kim, Gyouho and Dreslinski, Ronald G and Blaauw, David and Dutta, Prabal},
+	title = {{MBus}: A System Integration Bus for the Modular Micro-Scale Computing Class},
+	journal = {IEEE Micro: Special Issue on Top Picks from Computer Architecture Conferences},
+	series = {Micro~Top~Picks},
+	volume = {37},
+	number = {3},
+	month = {May},
+	year = {2016},
+}</pre>
+{% endraw %}
+  </div>
+  </div>
   <div class="well well-clear">
     <h3><a href="/static/pannuto15mbus.pdf">MBus: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems</a></h3>
     <h4>ISCA '15</h4>
