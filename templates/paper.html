@@ -8,14 +8,16 @@
 <div class="container">
   <h2>Publications related to MBus</h2>
   <p>
-    We have two refereed conference publications and a journal article on MBus.
+    We have two refereed conference publications and two journal articles on MBus.
     The Top Picks article provides a slightly less technical overview of MBus,
     covering the design motivations and key architectural tenets for an
     interconnect for microscale systems.
-    The CICC&nbsp;&rsquo;14 publication covers details on the novel circuit designs that enable MBus.
     The ISCA&nbsp;&rsquo;15 publication takes a holisitic view of the ultra-low
     power and micro-scale system design space, identifies the architectural
     constraints, and walks through the design choices and methodology of MBus.
+    The CICC&nbsp;&rsquo;14 publication introduces the novel circuit designs
+    that enable MBus, and the JSTS&nbsp;&rsquo;16 article expands these
+    arguments and adds details from implemented systems.
   </p>
 
   <div class="well well-clear">
@@ -46,6 +48,40 @@
 	number = {3},
 	month = {May},
 	year = {2016},
+}</pre>
+{% endraw %}
+  </div>
+  </div>
+  <div class="well well-clear">
+    <h3><a href="/static/lee16mbus.pdf">MBus: A Fully Synthesizable Low-power Portable Interconnect Bus for Millimeter-scale Sensor Systems</a></h3>
+    <h4>Journal of Semiconductor Technology and Science, Vol.16, No.6</h4>
+    <p>
+    This paper presents a fully synthesizable low power interconnect bus for
+    millimeter-scale wireless sensor nodes. A segmented ring bus topology
+    minimizes the required chip real estate with low input/output pad count for
+    ultra-small form factors. By avoiding the conventional open drain-based
+    solution, the bus can be fully synthesizable. Low power is achieved by
+    obviating a need for local oscillators in member nodes. Also, aggressive
+    power gating allows low-power standby mode with only 53 gates powered on.
+    An integrated wakeup scheme is compatible with a power management unit that
+    has nW standby mode. A 3-module system including the bus is fabricated in a
+    180nm process. The entiresystem consumes 8nW in standby mode, and the bus
+    achieves 17.5pJ/bit/chip.
+    </p>
+    <p><a id="lee16mbus-bibtex-button">(Bibtex)</a></p>
+    <div id="lee16mbus-bibtex" style="display: none;">
+{% raw %}
+      <pre>
+@article{lee16mbus,
+	author={Lee, Inhee and Kuo, Ye-Sheng and Pannuto, Pat and Kim, Gyouho and Foo, ZhiYoong and Kempke, Ben and Jeong, Seokhyeon and Kim, Yejoong and Dutta, Prabal and Blaauw, David and Lee, Yoonmyung},
+	title={{MBus}: A Fully Synthesizable Low-power Portable Interconnect Bus for Millimeter-scale Sensor Systems},
+	journal={Journal of Semiconductor Technology and Science},
+	volume={16},
+	number={6},
+	pages={745--753},
+	year={2016},
+	month={12},
+	doi={10.5573/JSTS.2016.16.6.745},
 }</pre>
 {% endraw %}
   </div>
